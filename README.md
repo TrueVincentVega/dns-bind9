@@ -1,6 +1,6 @@
 ## drpesojr/dns-bind9
 
-* [GitHub](https://github.com/TrueVincentVega/dns-bind9 ) - view the source for this repositorie.
+* [DockerHub](https://hub.docker.com/r/drpesojr/dns-bind9) - pull this image.
 
 Image is based on ubuntu:18.04. This image build support multiple architectures such as `arm64`. 
 
@@ -29,6 +29,7 @@ docker run -d -it \
 ## Parameters
 
 Container images are configured using parameters passed at runtime (such as those above). These parameters are separated by a colon and indicate external:internal respectively. For example, -P  would expose all exposed in build image ports from the container ( 53 and 53/udp). 
+
 | Parameter | Function |
 | :----: | --- |
 | `-P` | Expose all exposed in build image ports from the container ( 53 and 53/udp). |
