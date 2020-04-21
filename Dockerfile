@@ -31,7 +31,7 @@ RUN chmod 774 /root/autostartbind9.sh
 
 # ADD file to corect ip v6 output logs of service bind9
 ADD bind9.v6.options /etc/default/bind9
-ADD chmod 644 /etc/default/bind9	
+RUN chmod 644 /etc/default/bind9	
 
 # Default port of DNS server bind9
 EXPOSE 53
